@@ -1,7 +1,6 @@
 package com.jike.learn;
 
 import com.jike.learn.api.LrcPlayer;
-import com.jike.learn.bean.LrcInfo;
 import com.jike.learn.lrc.LrcPlay;
 
 /**

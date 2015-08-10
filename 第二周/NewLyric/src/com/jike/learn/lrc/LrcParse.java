@@ -20,7 +20,7 @@ public class LrcParse implements LrcParser
     private static final String albumNameAttr = "al";
     private static final String singNameAttr = "ti";
     private static final String timeReg = "\\[\\d{2}:\\d{2}.?(\\d{2})?\\]";
-    private static final String lyricReg = "[^\\[\\d{2}:\\d{2}.\\d{2}\\]].*";
+    private static final String lyricReg = "[^(\\[\\d{2}:\\d{2}.\\d{2}\\] *)].*";
     private List<String> lrcLine;
     private Map<Integer, String> timeLyric;
 
@@ -163,7 +163,7 @@ public class LrcParse implements LrcParser
     @Override
     public String getSingerName()
     {
-        return setAttr(singNameAttr);
+        return setAttr(singerNameAttr);
     }
 
     /**

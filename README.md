@@ -18,3 +18,5 @@
 >2、[解析LRC歌词](https://github.com/lihuaye/jikexueyuan/tree/master/%E7%AC%AC%E4%BA%8C%E5%91%A8/NewLyric)<br/>
 
 ----------------
+### 第三周
+>1、[完成同步播放歌词程序](https://github.com/lihuaye/jikexueyuan/tree/master/%E7%AC%AC%E4%B8%89%E5%91%A8/AppMusicPlayer)
